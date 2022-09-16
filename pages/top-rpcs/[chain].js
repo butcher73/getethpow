@@ -2,10 +2,9 @@ import React from "react";
 import Head from "next/head";
 import { populateChain, fetcher } from "../../utils";
 import chainIds from "../../constants/chainIds";
+import chains from "../constants/chains.json";
 
 export async function getStaticProps({ params, locale }) {
-  const chains = await fetcher("https://chainid.network/chains.json");
-
   const chainTvls = await fetcher("https://api.llama.fi/chains");
 
   const chain = chains.find(

@@ -6,9 +6,9 @@ import { fetcher, populateChain } from "../utils";
 import { useSearch, useTestnets } from "../stores";
 import Layout from "../components/Layout";
 import classes from "../components/Layout/index.module.css";
+import chains from "../constants/chains.json";
 
 export async function getStaticProps({ locale }) {
-  const chains = await fetcher("https://chainid.network/chains.json");
   const chainTvls = await fetcher("https://api.llama.fi/chains");
 
   const sortedChains = chains
