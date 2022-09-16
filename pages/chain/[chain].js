@@ -9,7 +9,7 @@ import RPCList from "../../components/RPCList";
 import classes from "./index.module.css";
 import Image from "next/image";
 import chainIds from "../../constants/chainIds";
-import chains from "../constants/chains.json";
+import chains from "../../constants/chains.json";
 
 export async function getStaticProps({ params, locale }) {
   const chainTvls = await fetcher("https://api.llama.fi/chains");
