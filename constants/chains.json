@@ -37,8 +37,8 @@
     "chain": "ETHW",
     "icon": "ethereum",
     "rpc": [
-      "https://rpc.etherpow.org/"
-      "https://mainnet.ethereumpow.org",
+      "https://rpc.etherpow.org/",
+      "https://mainnet.ethereumpow.org"
     ],
     "faucets": [],
     "nativeCurrency": {
