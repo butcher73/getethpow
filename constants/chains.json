@@ -31,15 +31,15 @@
       }
     ]
   },
+
   {
     "name": "Ethereum PoW",
-    "chain": "ETHw",
+    "chain": "ETHW",
     "icon": "ethereum",
     "rpc": [
-      "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
-      "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}",
-      "https://api.mycryptoapi.com/eth",
-      "https://cloudflare-eth.com"
+      "https://mainnet.ethereumpow.org",
+      "https://rpc.etherpow.org/"
+
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -47,7 +47,7 @@
       "symbol": "ETHw",
       "decimals": 18
     },
-    "infoURL": "https://ethereum.org",
+    "infoURL": "https://EthereumPoW.org",
     "shortName": "eth",
     "chainId": 10001,
     "networkId": 10001,
@@ -57,8 +57,8 @@
     },
     "explorers": [
       {
-        "name": "etherscan",
-        "url": "https://etherscan.io",
+        "name": "Ethereum pow scan",
+        "url": "https://exp.getethpow.click",
         "standard": "EIP3091"
       }
     ]
